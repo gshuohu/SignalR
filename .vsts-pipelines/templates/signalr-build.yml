@@ -25,7 +25,7 @@ jobs:
   - task: NodeTool@0
     displayName: Install Node.js
     inputs:
-      versionSpec: 16.x
+      versionSpec: 18.x
   - powershell: |
       ./tools/chrome/InstallGoogleChrome.ps1
     displayName: Install Chrome
